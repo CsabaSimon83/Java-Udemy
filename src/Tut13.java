@@ -1,4 +1,4 @@
-class Person {
+class PersonSample {
     String name;
     int age;
 }
@@ -7,11 +7,11 @@ class Person {
 public class Tut13 {
     public static void main(String[] args) {
 
-        Person person1 = new Person();
+        PersonSample person1 = new PersonSample();
         person1.name = "Joe Bloggs";
         person1.age = 37;
 
-        Person person2 = new Person();
+        PersonSample person2 = new PersonSample();
         person2.name = "Sarah Smith";
         person2.age = 20;
 
